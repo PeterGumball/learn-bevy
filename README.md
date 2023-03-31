@@ -4,7 +4,7 @@
 
 https://www.youtube.com/watch?v=TQt-v_bFdao
 
-## EP2 - EP2 - First Game Setup + Bundles and Resources
+## EP2 - First Game Setup + Bundles and Resources
 
 https://www.youtube.com/watch?v=izhFutJiZgo
 
@@ -14,3 +14,8 @@ https://www.youtube.com/watch?v=izhFutJiZgo
 - https://kenney.nl/assets/impact-sounds
 - https://kenney.nl/assets/sci-fi-sounds
 - https://kenney.nl/assets/interface-sounds
+
+## EP3 - Player Movement from Keyboard Input and Spawning Enemies
+
+https://www.youtube.com/watch?v=xnGMw5j5Xdo
+
