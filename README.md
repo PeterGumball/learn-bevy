@@ -19,3 +19,8 @@ https://www.youtube.com/watch?v=izhFutJiZgo
 
 https://www.youtube.com/watch?v=xnGMw5j5Xdo
 
+## EP4 - Enemy Movement, Collisions, Sound Effects, Despawning
+
+https://www.youtube.com/watch?v=4TjEo-gDgAg&list=PLVnntJRoP85JHGX7rGDu6LaF3fmDDbqyd&index=4
+
+
