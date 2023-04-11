@@ -23,4 +23,7 @@ https://www.youtube.com/watch?v=xnGMw5j5Xdo
 
 https://www.youtube.com/watch?v=4TjEo-gDgAg
 
+## EP5 - Spawning and Collecting Stars, Score Resource, and Timers
+
+https://www.youtube.com/watch?v=zdmZ95l-vzU
 
