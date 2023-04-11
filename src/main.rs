@@ -45,15 +45,9 @@ pub struct Enemy {
 #[derive(Component)]
 pub struct Star {}
 
-#[derive(Resource)]
+#[derive(Default, Resource)]
 pub struct Score {
     pub value: u32,
-}
-
-impl Default for Score {
-    fn default() -> Self {
-        Score { value: 0 }
-    }
 }
 
 #[derive(Resource)]
@@ -340,7 +334,7 @@ pub fn player_hit_star(
 
 pub fn update_score(score: Res<Score>) {
     if score.is_changed() {
-        println!("Score: {}", score.value.to_string());
+        println!("Score: {}", score.value);
     }
 }
 
