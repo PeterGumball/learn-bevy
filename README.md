@@ -27,3 +27,7 @@ https://www.youtube.com/watch?v=4TjEo-gDgAg
 
 https://www.youtube.com/watch?v=zdmZ95l-vzU
 
+## EP6 - Spawning Enemies over Time, and Bevy Events!
+
+https://www.youtube.com/watch?v=GOl-kacs8TQ
+
