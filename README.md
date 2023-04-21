@@ -31,3 +31,7 @@ https://www.youtube.com/watch?v=zdmZ95l-vzU
 
 https://www.youtube.com/watch?v=GOl-kacs8TQ
 
+## EP7 - Bevy Project Organization and Refactor, Rust Modules, and Bevy Plugins
+
+https://www.youtube.com/watch?v=gy2G63SA-W8
+
