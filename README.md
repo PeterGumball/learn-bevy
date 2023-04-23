@@ -35,3 +35,7 @@ https://www.youtube.com/watch?v=GOl-kacs8TQ
 
 https://www.youtube.com/watch?v=gy2G63SA-W8
 
+## EP8 - Explicit System Ordering and Bevy System Sets
+
+https://www.youtube.com/watch?v=i-Wczghlmxc
+
