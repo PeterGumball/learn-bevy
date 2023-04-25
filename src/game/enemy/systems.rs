@@ -30,6 +30,15 @@ pub fn spawn_enemies(
     }
 }
 
+pub fn despawn_enemies(
+    mut commands: Commands,
+    enemy_query:Query<Entity, With<Enemy>>
+) {
+    for enemy_entity in enemy_query.iter() {
+        commands.entity(enemy_entity).despawn();
+    }
+}
+
 pub fn enemy_movement(
     mut query: Query<(&mut Transform, &Enemy)>,
     time: Res<Time>,
@@ -63,7 +72,7 @@ pub fn update_enemy_direction(
             enemy.direction.x *= -1.0;
             direction_changed = true;
         }
-        
+
         if translation.y < y_min || translation.y > y_max {
             enemy.direction.y *= -1.0;
             direction_changed = true;
@@ -129,7 +138,7 @@ pub fn spawn_enemies_over_time(
     enemy_spawn_timer: Res<EnemySpawnTimer>,
 ) {
     if enemy_spawn_timer.timer.finished() {
-        let window = window_query.get_single().unwrap();   
+        let window = window_query.get_single().unwrap();
         let random_x = random::<f32>() * window.width();
         let random_y = random::<f32>() * window.height();
 

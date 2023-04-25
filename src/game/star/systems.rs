@@ -28,6 +28,15 @@ pub fn spawn_stars(
     }
 }
 
+pub fn despawn_stars(
+    mut commands: Commands,
+    star_query: Query<Entity, With<Star>>,
+) {
+    for star_entity in star_query.iter() {
+        commands.entity(star_entity).despawn();
+    }
+}
+
 pub fn tick_star_timer(
     mut star_spawn_timer: ResMut<StarSpawnTimer>,
     time: Res<Time>,
@@ -42,7 +51,7 @@ pub fn spawn_stars_over_time(
     star_spawn_timer: Res<StarSpawnTimer>,
 ) {
     if star_spawn_timer.timer.finished() {
-        let window = window_query.get_single().unwrap();   
+        let window = window_query.get_single().unwrap();
         let random_x = random::<f32>() * window.width();
         let random_y = random::<f32>() * window.height();
 
