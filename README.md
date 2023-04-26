@@ -43,3 +43,7 @@ https://www.youtube.com/watch?v=i-Wczghlmxc
 
 https://www.youtube.com/watch?v=bD2rgvtXcq0
 
+## EP10 - Bevy UI (User Interface Tutorial)
+
+https://www.youtube.com/watch?v=iW19V3a96tY
+
